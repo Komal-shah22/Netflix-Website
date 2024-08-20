@@ -1,0 +1,262 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #ece7e7;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(PK-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9dd4a4fb-14d8-4724-ae06-a127d945aaea_small.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 5px 8%;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    /* height: 150px; */
+    cursor: pointer;
+    padding-top: 20PX;
+    color:#db0001;
+    font-weight: 40%;
+}
+h1{
+    font-size: 300%;
+    font-weight: 60%;
+}
+button{
+    background-color:#db0001;
+    color:white ;
+    padding: 7px 20px;
+    padding-left: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 2px solid #db0001;
+    cursor: pointer;
+    margin-top: 0%;
+}
+#heading{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    text-align: center;
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: larger;
+}
+#btn{
+    background-color:#db0001;
+    color:white ;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 2px solid #db0001;
+    margin-left: 4px;
+    font-size: 160%;
+}
+
+input{
+   padding: 18px;
+   padding-right: 15%;
+   border-radius: 4px;
+   font-size: larger;
+   border: 0.5px solid white;
+   background-color: transparent;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    background-color: gray;
+    height: 10px;
+}
+#third{
+    background-color: black;
+    color: #ece7e7;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#text{
+    font-size: xx-large;
+}
+#one{
+    margin-top:15%;
+}
+#two{
+    background-image: url(tv\ \(1\).png);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+    z-index: 1;
+}
+#two video{
+    margin-top: 80px;
+    margin-left:70px ;
+    height: 220px;
+    z-index: 0;
+    right: 74px;
+    bottom: 216px;
+    width: 390px;
+}
+#download{
+    background-image: url(mobile-0819.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+}
+.phone{
+    height: 120px;
+    width: 310px;
+    border: 2px solid #303030;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 260px;
+    margin-left: 110px;
+}
+#combine{
+    height: 110px;
+    width: 300px;
+
+}
+#stranger{
+  height: 100px;
+  width: 70px;
+  background-image: url(boxshot.png);
+  background-size: cover;
+   margin: 10px; 
+  
+} 
+ .Things{
+     padding-left: 80px;
+     padding-top: 20px;
+
+} 
+#design{
+    color: blue;
+    padding-left: 80px;
+    padding-top: 0px;
+}
+#gif{
+    background-image: url(download-icon.gif);
+    background-size: cover;
+    height: 50px;
+    width: 50px; 
+    margin-left: 210px; 
+    margin-top: 0px; 
+    padding-top: 0%;
+}
+#about{
+    margin-top:15% ;
+}
+#back{
+    background-image: url(black.avif);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+}
+#child{
+    background-image: url(kids.png);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+}
+#mainheading{
+    padding-top: 50px;
+}
+#last{
+    height:1100px ;
+    background-color: black;
+    color: #ece7e7 ;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+   list-style: none;
+   width: 100%;
+   padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size:18px ;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position:absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .contant{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height:0 ;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label +.contant{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+#footer{
+    background-color: black;
+    color: #ece7e7;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    color: #ece7e7;
+}
+#English{
+    background-color:black;
+    color:white ;
+    padding: 7px 20px;
+    padding-left: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 2px solid ;
+    cursor: pointer;
+    margin-top: 0%;
+
+}
